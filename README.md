@@ -38,15 +38,44 @@ A Python desktop astronomy application with a reusable OOP architecture.
 
 ## Quick Start
 
-1. Create and activate a virtual environment.
-2. Install dependencies:
-   - `pip install -r requirements.txt`
-3. Run:
-   - `python main.py`
+### Setup (First Time)
 
-Alternative launcher:
+1. **Create a virtual environment:**
+   ```bash
+   python3 -m venv venv
+   ```
 
-- `python scripts/run_gui.py`
+2. **Activate the virtual environment:**
+   - **Linux/macOS:**
+     ```bash
+     source venv/bin/activate
+     ```
+   - **Windows:**
+     ```bash
+     venv\Scripts\activate
+     ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running the Application
+
+- **Main GUI:**
+  ```bash
+  python main.py
+  ```
+
+- **Alternative launcher:**
+  ```bash
+  python scripts/run_gui.py
+  ```
+
+### Requirements
+
+- Python 3.10 or higher
+- See `requirements.txt` for Python package dependencies
 
 ## Extendability
 
